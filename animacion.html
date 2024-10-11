@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animación</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Spicy+Rice&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <main>
+        <header>
+            <a href="index.html"><img src="img/LogoPersonal.jpg" alt="LogoPersonal" width="110px"></a>
+        </header>
+        <nav>
+            <a href="index.html">Position</a>
+            <a href="display.html">Display</a>
+            <a href="animacion.html">Animacion</a>
+            <a href="propCSS3.html">Propiedades CSS3</a>
+            <a href="refe.html">Referencias</a>
+            <a href="carrera.html">Carrera Universitaria</a>
+        </nav>
+        <section>
+            <div class="titulo">
+                <h1>Animación</h1>
+            </div>
+            <div class="izquierda">
+                <h2>Ideas Principales</h2>
+                <p>CSS permite animar la mayoria de los elementos HTML sin usar JavaScript</p>
+                <p>Puede haber varios estados de animacion hasta un maximo de 100 <br><b>(0%{}, 50%{}, 100%{})</b></p>
+                <p>Para que una animacion funcione, se debe vincular la Animacion a un elemento</p>
+            </div>
+            <div class="derecha">
+                <h2>Apuntes</h2>
+                <h3>Sintaxis</h3>
+                <p>@keyframes <b>nombre</b>{ <br>
+                    from{background-color:red;<br>
+                    } <br>
+                    to {background-color:yellow; <br>
+                    width:500px;
+                    }
+                </p>
+                <p>Se tiene que especificar la duracion con <b>animation-duration</b> ya que el valor el predeterminado
+                    es <b>0</b> pero si se mantiene en este valor la animacion no se apreciara</p>
+                <ul>
+                    <li><b>iteration-count</b></li>
+                    <p>Especifica el numero de veces que se reproduce la animacion</p>
+                    <li><b>Delay</b></li>
+                    <p>Especifica un retraso en la Animacion</p>
+                    <li><b>Timing-function</b></li>
+                    <p>Especifica la curva de velocidad</p>
+                </ul>
+                <img src="img/anima.jpg" alt="animacion" width="550px">
+            </div>
+        </section>
+        <footer>
+            <h2>Resumen</h2>
+            <p>La animaciones son muy dinamicas ya que nos pueden ayudar a crear efectos visuales combinando varios
+                colores o desplazando ciertos elementos de un sitio a otro </p>
+        </footer>
+    </main>
+</body>
+
+</html>
